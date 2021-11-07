@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cs.css">
+    <title>Checkout Cart</title>
+</head>
+<body>
+    <nav>
+        <a href="#" class="nav1"><i class="bi bi-asterisk"></i> Site Name</a>
+        <div class="navs">
+            <a href="#">Category 1</a>
+            <a href="#">Category 2</a>
+            <a href="#">Category 3</a>
+        </div>
+        <div class="navs navs2">
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-cart2"></i> Cart (1)</a>
+        </div>
+    </nav>
+
+    <div class="container-grid">
+        <main>
+            <table class="cart-success-table" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <span style="font-size: 50px;"><i class="bi bi-check-circle"></i></span>
+                            <div class="divx">
+                                <small>Order 64283487</small>
+                                <h2>Thank You, Your Name !</h2>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="p1">Your order is confirmed.</p>
+                            <p>We've accepted your order and we're getting it ready.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <h3>Customer Information</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>Shipping Address</b></p>
+                            <p>Ahmad Wano</p>
+                            <p>Penjaringan, Jakut</p>
+                        </td>
+                        <td>
+                            <p><b>Billing Address</b></p>
+                            <p>Wano Ahmad</p>
+                            <p>Kali Suren, Jaksel</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>Shipping Methode</b></p>
+                            <p>J&T Regular (Estimated ship time 3 - 7 days)</p>
+                        </td>
+                        <td>
+                            <p><b>Payment Methode</b></p>
+                            <p><i class="bi bi-aspect-ratio-fill"></i> Ending in 3217 -- $20.00</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <aside class="success-aside">
+            <h4>Summary (1 item)</h4>
+            <table class="total-table">
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$40.00</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Est. Taxes</td>
+                        <td>$1.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" style="text-align: start;">
+                            <form action="">
+                                <label for="code">Get card or discount code</label>
+                                <br>
+                                <input type="text" name="code" id="code" size="30">
+                                <button type="submit">Aplly</button>
+                            </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td>$91.00</td>
+                        </tr>
+                </tfoot>
+            </table>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="col-1">
+            <div class="foot-nav">
+                <h4 style="margin-right: 20px;">Site Name</h4>
+                <small class="navs">
+                    <a href="#">Category 1</a> |
+                    <a href="#">Category 2</a> |
+                    <a href="#">Category 3</a>
+                </small>
+            </div>
+            
+            <div class="support">
+                <i class="bi bi-phone-landscape-fill"></i>
+                <i class="bi bi-aspect-ratio-fill"></i>
+                <i class="bi bi-badge-cc-fill"></i>
+            </div>
+        </div>
+        <div class="form-subs">
+            <small>Stay In Touch Join our Newsletter</small>
+            <form action="">
+                <input type="email" name="subs" id="subs">
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </footer>
+    
+</body>
+</html>
